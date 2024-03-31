@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src = "script.js"></script>
+</head>
+<body>
+    <div id="maibx">
+        <div class="row">
+            <div class="col">weather</div>
+            <div class="col position-relative" >
+                <button type="button" class="btn btn-primary position-absolute top-50 start-50 translate-middle" id = "bb" onclick="h()">&#9999 Add New</button>
+            </div>
+            <div class="col">
+                <div class="row text-end fs-3" id = "dat"></div>
+                <div class="row text-end fs-2" id ="tme"></div>
+            </div>
+        </div>
+        <div class="col" id = "task"></div>
+
+    </div>
+    <div> <div id = "dbx">
+        <form id = "frm" name="f1" onsubmit=" return formf()">
+        <textarea class="form-control" placeholder="Enter your Task to do"  style="height: 50vh; font-size: 30px;" name = "tsk"></textarea>
+        select time of completion<input type="time" name="tme" pattern="[0-9]{2}:[0-9]{2}" required>
+        <button type="submit" class="btn btn-primary" id = "bb" >done</button>
+        <button type="reset" class="btn btn-primary">Reset</button>
+        <button  class="btn btn-primary" onclick="g()">Close</button>
+    </form>
+    </div>
+</body>
+</html>
