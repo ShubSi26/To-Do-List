@@ -9,4 +9,4 @@ A simple TO-DO list webpage using HTML, CSS and JS. All CRUD functions are worki
 # Dashbord Screenshot -
 ![image](https://github.com/ShubSi26/To-Do-List/blob/main/images/Screenshot%202024-04-28%20221633.jpg)
 # Input Form Screenshot - 
-![image]()
+![image](https://github.com/ShubSi26/To-Do-List/blob/main/images/Screenshot2.jpg)
